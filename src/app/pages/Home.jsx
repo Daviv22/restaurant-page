@@ -56,7 +56,7 @@ export default function Home() {
                     backgroundPosition: "center",
                 }}
             >
-                <div className="absolute inset-0 bg-gradient-to-br from-blue-950/85 via-blue-900/70 to-yellow-900/40" />
+                <div className="absolute inset-0 bg-linear-to-br from-blue-950/85 via-blue-900/70 to-yellow-900/40" />
 
                 <div className="relative z-10 max-w-7xl mx-auto px-6 py-24 grid lg:grid-cols-2 gap-16 items-center">
                     {/* Text */}
@@ -148,7 +148,7 @@ export default function Home() {
                                 <img
                                     src={gusFring}
                                     alt="Gustavo Fring"
-                                    className="w-full max-h-[420px] object-contain object-bottom"
+                                    className="w-full max-h-105 object-contain object-bottom"
                                 />
                                 <div className="mt-4 p-4 bg-white/10 rounded-2xl">
                                     <p className="text-yellow-400 font-bold text-sm">Gustavo Fring</p>
@@ -222,7 +222,7 @@ export default function Home() {
                         <img
                             src={friedChicken}
                             alt="Frango Frito Los Pollos Hermanos"
-                            className="relative rounded-3xl shadow-2xl w-full object-cover max-h-[480px]"
+                            className="relative rounded-3xl shadow-2xl w-full object-cover max-h-120"
                         />
                         <div className="absolute top-6 right-6 bg-yellow-400 text-blue-900 font-black px-4 py-2 rounded-full text-sm shadow-xl">
                             ⭐ Prato do Chefe
