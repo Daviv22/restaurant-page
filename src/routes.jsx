@@ -15,8 +15,4 @@ export const router = createHashRouter([
             ],
         }
     ],
-    {
-        basename: "/restaurant-page"
-    }
-
 );
