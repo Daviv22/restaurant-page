@@ -2,7 +2,7 @@
 
 Página fictícia do restaurante Los Pollos Hermanos, inspirado em Breaking Bad. Desenvolvida com React, Motion e Tailwind CSS v4.
 
-🍗 **[Acesse o projeto ao vivo](https://daviv22.github.io/restaurant-page)**
+🍗 **[Acesse o projeto ao vivo](https://daviv22.github.io/restaurant-page/#/)**
 
 ## Tecnologias
 
