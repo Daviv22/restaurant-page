@@ -13,5 +13,7 @@ export const router = createBrowserRouter([
             { path: 'menu', element: <Menu /> },
             { path: 'contact', element: <Contact /> },
         ],
-    },
+    }, {
+        basename: import.meta.env.BASE_URL
+    }
 ]);
