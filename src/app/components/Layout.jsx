@@ -2,6 +2,7 @@ import { NavLink, useLocation, Outlet } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, Phone, Mail, MapPin, Clock, ChevronUp } from "lucide-react";
+import logo from "../../assets/logo.png";
 
 
 export default function Layout() {
@@ -43,10 +44,10 @@ export default function Layout() {
                 <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
                     {/* Logo */}
                     <NavLink to="/" className="flex items-center gap-3 group">
-                        <div className="w-10 h-10 rounded-full bg-yellow-400 flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300">
-                            <span className="text-xl">🍗</span>
+                        <div className="rounded-full bg-transparent flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300">
+                            <img src={logo} alt="Logo" className="w-20 h-20  rounded-full"/>
                         </div>
-                        <div className="leading-tight">
+                        <div className="leading-tight font-pollos">
                             <span className="text-yellow-400 font-black tracking-wide text-xl">Los Pollos</span>
                             <span className="text-white font-light tracking-widest text-xl"> Hermanos</span>
                         </div>
@@ -155,11 +156,11 @@ export default function Layout() {
                         {/* Brand */}
                         <div className="lg:col-span-1">
                             <div className="flex items-center gap-3 mb-4">
-                                <div className="w-10 h-10 rounded-full bg-yellow-400 flex items-center justify-center">
-                                    <span className="text-xl">🍗</span>
+                                <div className="rounded-full bg-yellow-400 flex items-center justify-center">
+                                    <img src={logo} alt="Logo" className="w-20 h-20  rounded-full"/>
                                 </div>
                                 <div>
-                                    <p className="text-yellow-400 font-black">Los Pollos Hermanos</p>
+                                    <p className="text-yellow-400 font-black font-pollos">Los Pollos Hermanos</p>
                                 </div>
                             </div>
                             <p className="text-white/60 text-sm leading-relaxed mb-6">

@@ -57,8 +57,8 @@ export default function Contact() {
                     transition={{ duration: 0.6 }}
                     className="relative z-10"
                 >
-                    <span className="text-yellow-400 text-sm font-bold uppercase tracking-widest">Fale Conosco</span>
-                    <h1 className="text-5xl font-black mt-3 mb-4">Entre em Contato</h1>
+                    <span className="text-yellow-400 text-sm font-bold uppercase tracking-widest font-pollos">Fale Conosco</span>
+                    <h1 className="text-5xl font-black mt-3 mb-4 font-pollos">Entre em Contato</h1>
                     <p className="text-white/60 max-w-xl mx-auto">
                         Estamos sempre prontos para atendê-lo. Envie uma mensagem ou visite uma de nossas unidades.
                     </p>
@@ -74,7 +74,7 @@ export default function Contact() {
                         animate="visible"
                         custom={0}
                     >
-                        <h2 className="text-3xl font-black text-blue-900 mb-2">Envie uma Mensagem</h2>
+                        <h2 className="text-3xl font-black text-blue-900 mb-2 font-pollos">Envie uma Mensagem</h2>
                         <p className="text-gray-500 mb-8">Respondemos em até 24 horas úteis.</p>
 
                         {submitted ? (
@@ -179,7 +179,7 @@ export default function Contact() {
                                 initial="hidden"
                                 animate="visible"
                                 custom={1}
-                                className="text-3xl font-black text-blue-900 mb-8"
+                                className="text-3xl font-black text-blue-900 mb-8 font-pollos"
                             >
                                 Nossas Unidades
                             </motion.h2>
@@ -190,10 +190,10 @@ export default function Contact() {
                                     variants={fadeUp}
                                     initial="hidden"
                                     animate="visible"
-                                    custom={i + 2} // O primeiro card vai ter custom={2}, o segundo custom={3}...
+                                    custom={i + 2}
                                     className="mb-6 p-6 rounded-2xl border border-gray-100 hover:border-yellow-400 hover:shadow-lg hover:shadow-yellow-400/10 transition-all duration-300 bg-white"
                                 >
-                                    <h3 className="text-blue-900 font-black text-lg mb-4">{loc.name}</h3>
+                                    <h3 className="text-blue-900 font-black text-lg mb-4 font-pollos">{loc.name}</h3>
                                     <ul className="space-y-3">
                                         <li className="flex items-start gap-3 text-sm text-gray-600">
                                             <MapPin size={16} className="text-yellow-500 mt-0.5 shrink-0"/>

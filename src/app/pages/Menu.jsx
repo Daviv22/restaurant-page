@@ -32,7 +32,7 @@ export default function Menu() {
                     className="relative z-10"
                 >
                     <span className="text-yellow-400 text-sm font-bold uppercase tracking-widest">Los Pollos Hermanos</span>
-                    <h1 className="text-5xl font-black mt-3 mb-4">Nosso Cardápio</h1>
+                    <h1 className="text-5xl font-black mt-3 mb-4 font-pollos">Nosso Cardápio</h1>
                     <p className="text-white/60 max-w-xl mx-auto">
                         Preparado com os melhores ingredientes e a receita que conquistou gerações. Escolha o seu favorito!
                     </p>
