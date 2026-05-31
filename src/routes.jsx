@@ -9,11 +9,14 @@ export const router = createBrowserRouter([
         path: '/',
         element: <Layout />,
         children: [
-            { path: '/', element: <Home /> },
-            { path: 'menu', element: <Menu /> },
-            { path: 'contact', element: <Contact /> },
-        ],
-    }, {
-        basename: "/restaurant-page/"
+                { path: '/', element: <Home /> },
+                { path: 'menu', element: <Menu /> },
+                { path: 'contact', element: <Contact /> },
+            ],
+        }
+    ],
+    {
+        basename: "/restaurant-page"
     }
-]);
+
+);
